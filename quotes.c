@@ -21,7 +21,7 @@ void main(int argc, char *argv[])
 {
 	int i;
 	srand(time(NULL));
-	i=rand()%9;	//0-1 numbers
+	i=rand()%9;	//0-8 numbers
 	/* code */
 	if(argc < 2){
 		printf("Too Few Parameters\nTry Again\n");
